@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.cabecalho{
+    /* Use linear-gradient() para criar o degradê de cores */
+    background: linear-gradient(to bottom, #003354, #003080);
+    /* Adicione estilos adicionais, como altura, largura, etc. */
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.rodape{
+   /* Use linear-gradient() para criar o degradê de cores */
+    background-color: #003080;
+    /* Adicione estilos adicionais, como altura, largura, etc. */
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 71%;
+}
