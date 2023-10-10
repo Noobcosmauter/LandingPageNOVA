@@ -1,11 +1,16 @@
 :root {
   --cor_hover: #40a3ff;
+  --cor1_hover: #F28C0F;
 }
+
+
 
 * {
   padding: 0px;
   margin: 0px;
 }
+
+/*--------------------------CONTEÚDO CAÇALHO------------------- */
 
 .cabecalho {
   /* Use linear-gradient() para criar o degradê de cores */
@@ -15,6 +20,7 @@
   text-align: center;
   color: #ffffff;
   padding: 5px;
+  position: absolute fixed;
 }
 
 #logo {
@@ -103,6 +109,36 @@
   color: var(--cor_hover);
 }
 
+/*--------------------------CONTEÚDO MAIN------------------- */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cta-1{
+  margin-top: 100px;
+  width: 230px;
+  height: 110px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 5.0s ease;
+}
+
+.cta-1:hover{
+  transition: color 5.0s ease;
+  background-color:  var(--cor1_hover);
+}
+
+/*--------------------------CONTEÚDO RODAPE------------------- */
 
 .rodape {
   /* Use linear-gradient() para criar o degradê de cores */
@@ -148,3 +184,21 @@
   margin-left: 5%;
   margin-top: 15px;
 }
+.ola{
+  color: #0e0433;
+  font-size: 45px;
+  
+}
+.seja{
+   color: #0e0433;
+  font-size: 33px;
+  margin-top: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(45deg, #05001a, #9583fa);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        
+  
+}
+
