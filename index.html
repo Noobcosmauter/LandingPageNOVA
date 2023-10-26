@@ -1,72 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href=".style.css">
-  <script type="text/javascript" src="./index.js" defer=""></script>
   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-  <header class="cabecalho">
-    <div class="imagemLogo">
-      <img id="logo" src="https://i.imgur.com/htMIHqJ.png">
+
+  <header class="cabecalho"></header>
+
+  <form id="loginForm">
+  
+    <h3 class="Registro">Registro</h3>
+
+    <div class="nomeContainer">
+    <label class="nome" for="nome">Nome Completo:</label>
+    <input class="nomeCompleto" type="text" id="nome" name="nome" required>
     </div>
-    <nav class="botoes">
-      <a href="#curso" class="curso">CURSO</a>
-      <a href="#sobre" class="sobre">SOBRE</a>
-      <a href="#contato_endereco" class="contato_endereco">CONTATO/ENDEREÇO</a>
-      <a href="#duvidas" class="duvidas">DÚVIDAS</a>
-      <a href="#avaliacoes" class="avaliacoes">AVALIAÇÕES</a>
-    </nav>
-  </header>
 
-<main>
-
-  <div class="container_inscrever">
-    <div class="ola">QUER APRENDER A DESENVOLVER SISTEMAS?</div>
-    <div class="seja"> CONHEÇA O NOSSO CURSO!
+    <div class="emailContainer">
+      <label class="email" for="nome">EMAIL:</label>
+      <input class="emailCompleto" type="text" id="nome" name="nome" required>
     </div>
-    <button class="cta-1">INSCREVER-SE</button>
-    <img id="cara_feliz" src="https://freepngimg.com/thumb/happy_person/4-2-happy-person-transparent.png">
-    <img id="cara_feliz2" src="https://freepngimg.com/thumb/happy_person/6-2-happy-person-png-picture.png">
-  </div>
 
-  <div class="container_sobre">
-    <div class="conteudo_sobre">
-      <div class="titulo_sobre_container"> 
-        <h3>Conheça mais sobre este curso</h3>
+    <div class="RGContainer">
+      <label class="RG" for="nome">RG:</label>
+      <input class="RGCompleto" type="text" id="nome" name="nome" required>
+    </div>
+    
+    <div class="CPFContainer">
+      <label class="CPF" for="nome">CPF:</label>
+      <input class="CPFCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="celularContainer">
+      <label class="celular" for="nome">Celular:</label>
+      <input class="celularCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="telefoneContainer">
+      <label class="telefone" for="nome">Telefone:</label>
+      <input class="telefoneCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <H3 class="emergencia">EM CASO DE EMERGÊNCIA PROCURAR POR:</H2>
+
+    <div class="nomeEmerContainer">
+      <label class="nomeEmer" for="nome">Nome Completo:</label>
+      <input class="emerCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="celuTeleContainer">
+      <label class="CelularTelefone" for="nome">Celular/Telefone:</label>
+      <input class="celularTelefoneCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <H3 class="locatorioAviso">EM CASO DE LOCÁTORIO INFORMAR:</H2>
+
+    <div class="LocatorioContainer">
+      <label class="PropeNome" for="nome">Nome Do Propretário:</label>
+      <input class="FonePrope" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="celuTeleContainer">
+      <label class="CelularTelefone" for="nome">Celular/Telefone:</label>
+      <input class="celularTelefoneCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+
+
+<!--MORADORES-->
+ <H3 class="locatorioAviso">DEMAIS MORADORES:</H2>
+
+<!--morador1-->
+    <div class="moradorContainer">
+      <label class="moradorNome" for="nome">Nome Do Propretário:</label>
+      <input class="moradorCompleto" type="text" id="nome" name="nome" required>
       </div>
-      <div class="texto_sobre">
-        <p class="texto1">O curso tecnico em Desenvolvimento de Sistema no Paraná é uma excelente oportunidade para os estudantes do ensino médio que desejam ingressar no emocionante mundo da tecnologia. Este emocionante mundo da tecnologia. Este programa educacional aberto a todos os novos alunos do ensino médio oferece uma plataforma sólida para que os discentes possam se aprofundar e se especializar na área de tecnologia</p></p>
+
+    <div class="RGmoradorContainer">
+      <label class="RGmorador" for="nome">RG:</label>
+      <input class="RGmoradorCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="graucontainer">
+      <label class="grau" for="nome">Grau de parenresco:</label>
+      <input class="grauCompleto" type="text" id="nome" name="nome" required>
+    </div>
+<!--morador2-->
+    <div class="moradorContainer">
+      <label class="moradorNome" for="nome">Nome Do Propretário:</label>
+      <input class="moradorCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="RGmoradorContainer">
+      <label class="RGmorador" for="nome">RG:</label>
+      <input class="RGmoradorCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="graucontainer">
+      <label class="grau" for="nome">Grau de parenresco:</label>
+      <input class="grauCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+
+ 
+    
+
+    <H3 class="locatorioAviso">DEMAIS MORADORES:</H2>
+
+<!--morador1-->
+    <div class="moradorContainer">
+      <label class="moradorNome" for="nome">Nome Do Propretário:</label>
+      <input class="moradorCompleto" type="text" id="nome" name="nome" required>
       </div>
 
+    <div class="RGmoradorContainer">
+      <label class="RGmorador" for="nome">RG:</label>
+      <input class="RGmoradorCompleto" type="text" id="nome" name="nome" required>
     </div>
-  </div>
 
-</main>
+    <div class="graucontainer">
+      <label class="grau" for="nome">Grau de parenresco:</label>
+      <input class="grauCompleto" type="text" id="nome" name="nome" required>
+    </div>
+<!--morador2-->
+    <div class="moradorContainer">
+      <label class="moradorNome" for="nome">Nome Do Propretário:</label>
+      <input class="moradorCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="RGmoradorContainer">
+      <label class="RGmorador" for="nome">RG:</label>
+      <input class="RGmoradorCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="graucontainer">
+      <label class="grau" for="nome">Grau de parenresco:</label>
+      <input class="grauCompleto" type="text" id="nome" name="nome" required>
+    </div>
 
 
-  <footer class="rodape">
-    <nav class="rodape_informacoes">
-      <div class="contato">PARA MAIS CONTATO</div>
-      <div class>
-        <div class="info">
-          <div class="fone">FONE: 2507-2007</div>
-          <div class="email">E-MAIL: ocursotecnicotdsdoivb@gmail.com </div>
-          <div class="endereco">ENDEREÇO: Rua Ignêz de Lourdes Gomes de Macedo, 331 - Sítio Cercado, Curitiba - PR,
-            81920-090</div>
-          <div class="direitos">Todos os direitos reservados ao Colégio Estadual Inêz Vicente Borocz.</div>
+
+<H3 class="locatorioAviso">Funcionarios da unidade:</H2>
+
+<!--funcionario1-->
+    <div class="funcionarioContainer">
+      <label class="funcionarioNome" for="nome">Nome Completo:</label>
+      <input class="funcionarioCompleto" type="text" id="nome" name="nome" required>
+      </div>
+
+    <div class="RGfuncionarioContainer">
+      <label class="RGfuncionario" for="nome">RG:</label>
+      <input class="RGfuncionarioCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="cargocontainer">
+      <label class="cargo" for="nome">Cargo:</label>
+      <input class="cargoCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+<!--funcionario2-->
+    <div class="funcionarioContainer">
+      <label class="funcionarioNome" for="nome">Nome Completo:</label>
+      <input class="funcionarioCompleto" type="text" id="nome" name="nome" required>
+      </div>
+
+    <div class="RGfuncionarioContainer">
+      <label class="RGfuncionario" for="nome">RG:</label>
+      <input class="RGfuncionarioCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="cargocontainer">
+      <label class="cargo" for="nome">Cargo:</label>
+      <input class="cargoCompleto" type="text" id="nome" name="nome" required>
+    </div>
 
 
-    </nav>
-  </footer>
 
+
+
+
+
+
+
+  </form>
+
+
+<footer class="rodape"></footer>
+
+  <script>
+    function enviarFormulario() {
+      var nome = document.getElementById('nome').value;
+      var senha = document.getElementById('senha').value;
+
+      // Criar um objeto JSON
+      var dados = {
+        nome: nome,
+        senha: senha
+      };
+
+      // Exibir no console
+      console.log(JSON.stringify(dados));
+    }
+  </script>
 
 </body>
-
 </html>
