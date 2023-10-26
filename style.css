@@ -1,275 +1,331 @@
-:root {
-  --cor_hover: #ff4747;
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
-}
-/*-------------------------------CABEÇALHO---------------------------*/
-.cabecalho {
-  /* Use linear-gradient() para criar o degradê de cores */
-  background: linear-gradient(to bottom, #0e0433, #010d22);
-  /* Adicione estilos adicionais, como altura, largura, etc. */
-  height: 100px;
-  text-align: center;
-  color: #ffffff;
-  padding: 5px;
-  position: absolute fixed;
-}
-
-#logo {
-  width: 100px;
-  height: 100px;
-  margin-left: -47%;
-  position: absolute;
-}
-
-.botoes {
-  padding: 2px;
-  margin-top: 1%;
-  margin-left: -90%;
-  font-size: 1.7rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.curso {
-  position: absolute;
-  margin-top: 1.5%;
-  margin-left: 20%;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.curso:hover {
-  transform: scale(1.2);
-}
-
-.sobre {
-  position: absolute;
-  margin-top: 1.5%;
-  margin-left: 30%;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.sobre:hover {
-  transform: scale(1.2);
-}
-
-.duvidas {
-  position: absolute;
-  margin-top: 1.5%;
-  margin-left: 39%;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.duvidas:hover {
-  transform: scale(1.2);
-}
-
-.contato_endereco {
-  position: absolute;
-  margin-top: 1.5%;
-  margin-left: 50.4%;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.contato_endereco:hover {
-  transform: scale(1.2);
-}
-
-.avaliacoes {
-  position: absolute;
-  margin-top: 1.5%;
-  margin-left: 72%;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.avaliacoes:hover {
-  transform: scale(1.2);
-}
-
-/*-------------------------------CONTEUDO-PAGINA---------------------------*/
-
-/*                             Container inscrever                         */
-
-.container_inscrever {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  font-family: Arial, sans-serif;
   justify-content: center;
-  padding: 200px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.ola {
-  color: #ffffff;
-  font-size: 40px;
-  margin-top: -160px;
-  background: linear-gradient(to bottom, #0e0433, #010d22);
-  padding: 15px;
-  padding-bottom: 470px;
-  padding-top: 50px;
-  border-radius: 10px;
-
+.cabecalho {
+  padding: 50px;
 }
 
-.seja {
-  color: #ffffff;
-  margin-top: -460px;
-  font-size: 40px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  border-radius: 15px;
-
+form {
+  width: 300px;
+  padding: 100px;
+  margin-left: 30%;
+  margin-top: 0%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Animação para o efeito neon */
-@keyframes neon {
-  0% {
-    background-position: 0% 50%;
+.Registro{
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:black;
+margin-top: -16%;
+margin-left: 34%;
+}
+
+
+
+/*--------NOME--COMPLETO--------*/
+.nomeContainer{
+padding: 1px;
+margin-top: 0%;
+margin-left: -23%;
+}
+.nome {
+  display: block;
+  margin-bottom: 8px;
+}
+.nomeCompleto {
+  width: 120%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*--------EMAIL--------*/
+
+.emailContainer{
+
+padding: 1px;
+margin-top: 0%;
+margin-left: -23%;
+}
+.email {
+  display: block;
+  margin-bottom: 8px;
+}
+.emailCompleto {
+  width: 120%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*--------RG--------*/
+.RGContainer{
+  padding: 1px;
+  margin-top: 0%;
+  margin-left: -23%;
+}
+.RG {
+  display: block;
+  margin-bottom: 8px;
+}
+.RGCompleto {
+  width: 56%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
   }
 
-  100% {
-    background-position: 100% 50%;
+/*--------CPF--------*/
+.CPFContainer{   
+  padding: 1px;
+  margin-top: -25%;
+  margin-left: 55%;
+}
+.CPF {
+  display: block;
+  margin-bottom: 8px;
+}
+.CPFCompleto {
+  width: 155%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*--------Celular--------*/
+.celularContainer{
+  padding: 1px;
+  margin-top: 0%;
+  margin-left: -23%;
+}
+.celular {
+  display: block;
+  margin-bottom: 8px;
+}
+.celularCompleto {
+  width: 56%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*--------Telefone--------*/
+
+.telefoneContainer{   
+padding: 1px;
+margin-top: -25%;
+margin-left: 55%;
+}
+.telefone {
+display: block;
+margin-bottom: 8px;
+}
+.telefoneCompleto {
+width: 155%;
+padding: 8px;
+margin-bottom: 12px;
+box-sizing: border-box;
+}
+
+/*--------EMERGÊNCIA--------*/
+
+.emergencia{
+font-size: 13px;
+margin-top: 8%;
+word-spacing: 1px;
+}
+
+.nomeEmerContainer{
+padding: 1px;
+margin-top: 10%;
+margin-left: -23%;
+}
+.nomeEmer {
+  display: block;
+  margin-bottom: 8px;
+}
+.emerCompleto {
+  width: 120%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*--------CELULAR/TELEFONE--------*/
+.celuTeleContainer{
+  padding: 1px;
+  margin-top: 0%;
+  margin-left: -23%;
+}
+.CelularTelefone {
+  display: block;
+  margin-bottom: 8px;
+}
+.celularTelefoneCompleto {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*--------LOCATÓRIO--------*/
+
+.locatorioAviso{
+font-size: 13px;
+margin-top: 8%;
+word-spacing: 1px;
+}
+
+.LocatorioContainer{
+padding: 1px;
+margin-top: 10%;
+margin-left: -23%;
+}
+.PropeNome {
+  display: block;
+  margin-bottom: 8px;
+}
+.FonePrope {
+  width: 120%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+
+/*-------------------------MORADORES---------------------------*/
+/*MORADOR NOME*/
+.moradorContainer{
+  padding: 1px;
+  margin-top: 10%;
+  margin-left: -23%;
+  }
+  .moradorNome {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .moradorCompleto {
+    width: 120%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+/*MORADOR RG*/
+  .RGmoradorContainer{
+    padding: 1px;
+    margin-top: 0%;
+    margin-left: -23%;
+  }
+  .RGmorador {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .RGmoradorCompleto {
+    width: 56%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+/*MORADOR GRAU DE PARENTESCO*/
+  .graucontainer{   
+    padding: 1px;
+    margin-top: -25%;
+    margin-left: 55%;
+  }
+  .grau {
+    white-space: nowrap;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .grauCompleto {
+    width: 155%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
   }
 
-}
-#cara_feliz {
-  margin-top: -256px;
-  margin-left: 820px;
-  width: 470px;
-  height: 460px;
-  filter: grayscale(80%);
-}
+/*-------------------------funcionarios---------------------------*/
+/*funcionario NOME*/
+.funcionarioContainer{
+  padding: 1px;
+  margin-top: 10%;
+  margin-left: -23%;
+  }
+  .funcionarioNome {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .funcionarioCompleto {
+    width: 120%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+/*funcionario RG*/
+  .RGfuncionarioContainer{
+    padding: 1px;
+    margin-top: 0%;
+    margin-left: -23%;
+  }
+  .RGfuncionario {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .RGfuncionarioCompleto {
+    width: 56%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+/*funcionario cargo*/
+  .cargocontainer{   
+    padding: 1px;
+    margin-top: -25%;
+    margin-left: 55%;
+  }
+  .cargo {
+    white-space: nowrap;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .cargoCompleto {
+    width: 155%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
 
-#cara_feliz2 {
-  margin-top: -459px;
-  margin-right: 860px;
-  width: 470px;
-  height: 460px;
-  filter: grayscale(80%);
-}
-.cta-1 {
-  margin-top: 100px;
-  width: 310px;
-  height: 100px;
-  border-radius: 20px;
-  color: #ffffff;
-  background-color: #ff4747;
-  border-color: #ff4747;
-  font-size: 40px;
+
+
+
+
+
+
+
+
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  transition: transform 0.3s ease;
 }
 
-.cta-1:hover {
-  transform: scale(1.2);
+button:hover {
+  background-color: #45a049;
 }
-
-/*                              Containe Sobre                             */
-
-.container_sobre{
-  padding: 20%;
-  background-color: #010d22;
-  margin-top: -13.2%;
-}
-.conteudo_sobre{
-  padding: 1px;
-  position: absolute;
-  align-items: center;
-  margin-top: -10%;
-  margin-left: 20%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;  
-}
-.texto_sobre{
-  padding: 1px;
-  position: absolute;
-  align-items: center;
-  width: 250%;
-  font-size: 1rem;
-  margin-top: 20%;
-  margin-left: -40%;
-}
-.texto1{
-  padding: 10px;
-text-align: center;
-margin-left: -30%;
-margin-top: 0;
-}
-
-
-
-
-/*-------------------------------Rodape---------------------------*/
 
 .rodape {
-  background-color: #0e0433;
-  height: 100px;
-  color: white;
   padding: 30px;
-  margin-top: 71%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contato {
-  font-size: 25px;
-  margin-top: -10px;
-  text-align: center;
-}
-
-.info {
-  margin-left: 350px;
-
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.fone {
-  margin-top: 10px;
-  transition: color 0.3s ease;
-}
-
-.fone:hover {
-  color: var(--cor_hover);
-}
-
-.email {
-  transition: color 0.3s ease;
-}
-
-.email:hover {
-  color: var(--cor_hover);
-}
-
-.endereco {
-  transition: color 0.3s ease;
-}
-
-.endereco:hover {
-  color: var(--cor_hover);
-}
-
-.direitos {
-  margin-left: 5%;
-  margin-top: 15px;
+  margin-top: 10%;
 }
